@@ -72,9 +72,13 @@ h6 {
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
 }
-.img-centered {
-  margin: 0 auto;
-}
+
+nav ul, footer ul {
+    padding: 0px; list-style: none; font-weight: bold;}
+nav ul li, footer ul li {
+    display: inline;margin-right: 20px;}
+
+
 .bg-light-gray {
   background-color: #3f3f3f;
 }
