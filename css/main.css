@@ -19,6 +19,12 @@ header nav {
   text-indent: 40px;
   font-weight: bold;
 }
+
+.shrink {
+  padding: 20px 0;
+}
+
+
 nav ul, footer ul {
     padding: 0px; list-style: none; font-weight: bold;}
 nav ul li, footer ul li {
