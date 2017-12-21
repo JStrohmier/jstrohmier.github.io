@@ -1,8 +1,8 @@
 var questions = 2;
-var questionsLeft = ' [' + questions + ' more names need to be entered]';
+var questionsLeft = ' [' + questions + ' additional names need to be entered after this]';
 var persona = prompt("Please enter a name:" + questionsLeft, "Goofy");
 questions -= 1;
-questionsLeft = ' [' + questions + ' more names need to be entered]';
+questionsLeft = ' [' + questions + ' additional name needs to be entered after this]';
 var personb = prompt("Please enter a second name:" + questionsLeft, "Hobbes");
 var personc = prompt("Please enter a third name", "Jean");
 alert('All done. Ready for the message?');
