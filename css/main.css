@@ -1,83 +1,23 @@
-html {
-  font-size: 62.5%;
-  /* Sets up base 10 for rem */
-}
-#pageContainer,
-#noCookieContainer {
-  display: none;
-}
-
 body {
-    overflow-x: hidden;
-    font-family: 'Helvetica', "Helvetica Neue", 'Arial', 'Sans-Serif';
-    background-color: #f2f2f2;
-    webkit-tap-highlight-color: #ffac39;
-    margin: 180px auto;
-    }
-.text-muted {
-  color: #777777;
-}
-.text-primary {
-  color: #333333;
-}
-p {
-  font-size: 1.4rem;
-  font-size: 14px;
-  line-height: 1.75;
-}
-p .large {
-  font-size: 1.6rem;
-  font-size: 16px;
-}
-ul {
-  list-style-type: none;
-}
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-  outline: none;
-}
-a {
-  color: #1460aa;
-  text-decoration: underline;
-}
-a:hover,
-a:focus,
-a:active,
-a.active {
-  color: #999;
-  text-decoration: none;
-  font-weight: 700;
-}
-h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 900;
-  letter-spacing: 4px;
-  margin: 0;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700;
-}
-
+    margin: 60px auto;width: 70%; font-family:'Helvetica', 'Arial', 'Sans-Serif';}
 nav ul, footer ul {
     padding: 0px; list-style: none; font-weight: bold;}
 nav ul li, footer ul li {
     display: inline;margin-right: 20px;}
-
-
-.bg-light-gray {
-  background-color: #3f3f3f;
-}
-.bg-darkest-gray {
-  background-color: #222222;
-}
+a, ul li a {
+    text-decoration: none; color:#1460aa;}
+a:hover, ul li a:hover {
+    text-decoration: underline; color: #999;}
+h1 {
+    font-size: 3em;}
+p {
+    font-size: 1.3em;line-height: 1.5em;color: #333;}
+footer {
+    border-top: 1px solid #d5d5d5;font-size: .8em;}
+ul.posts { 
+    margin: 20px auto 40px;font-size: 1.5em;}
+ul.posts li {
+    list-style: none;}
 .skipnav { 
     text-align: left;}
 .skipnav a {
