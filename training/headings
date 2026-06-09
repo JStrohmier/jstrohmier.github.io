@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Training Example</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            gap: 1rem;
+            height: 100vh;
+            padding: 1rem;
+        }
+
+        .pane {
+            flex: 1;
+            overflow: auto;
+            border: 2px solid #666;
+            padding: 1rem;
+            background-color: #fff;
+        }
+
+        .pane:focus {
+            outline: 3px solid #005fcc;
+            outline-offset: 2px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- Left Pane -->
+        <section
+            class="pane"
+            tabindex="0"
+            aria-labelledby="document-heading">
+
+            <article>
+                <h1 id="document-heading">Foods I Like to Eat</h1>
+
+                <section aria-labelledby="fruits-heading">
+                    <h2 id="fruits-heading">Fruits</h2>
+
+                    <section aria-labelledby="berries-heading">
+                        <h3 id="berries-heading">Berries</h3>
+
+                        <ul>
+                            <li>Strawberries</li>
+                            <li>Raspberries</li>
+                            <li>Blackberries</li>
+                            <li>Blueberries</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section aria-labelledby="vegetables-heading">
+                    <h2 id="vegetables-heading">Vegetables</h2>
+
+                    <p>
+                        Content can be added here.
+                    </p>
+                </section>
+            </article>
+
+        </section>
+
+        <!-- Right Pane -->
+        <section
+            class="pane"
+            tabindex="0"
+            aria-labelledby="notes-heading">
+
+            <h2 id="notes-heading">Notes</h2>
+
+            <p>
+                This is the second scrollable pane. Add training content,
+                instructions, comments, or exercises here.
+            </p>
+
+            <p>
+                Both panes can be focused using the keyboard (Tab key) and
+                scrolled independently using arrow keys, Page Up/Page Down,
+                Home, End, or a mouse wheel.
+            </p>
+
+            <p>
+                Additional content can be added to make this pane scroll.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
